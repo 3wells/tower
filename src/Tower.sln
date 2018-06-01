@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "T. Tests", "T. Tests", "{5A3A8180-FD70-43E9-971F-1DF17A292395}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "S. Serverless", "S. Serverless", "{4C9F9B2C-37DB-4AE4-B820-5FE4E88B7EE9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "A. Common", "A. Common", "{672CA624-D11E-4FC7-AC36-39359FCA7C7B}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Tower.AirportIdentifier", "Tower.AirportIdentifier\Tower.AirportIdentifier.xproj", "{CDB9BC61-41D2-489D-8F7F-49CED5B7D59B}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Tower.Alexa", "Tower.Alexa\Tower.Alexa.xproj", "{0C981384-85E6-4405-A0C2-8A6E921434CD}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Tower.Tests", "Tower.Tests\Tower.Tests.xproj", "{9EABB0E2-13CC-4CA7-B85E-C12C47193950}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Tower.AviationWeather", "Tower.AviationWeather\Tower.AviationWeather.xproj", "{6B43C5D9-FA92-4CA2-A96F-C318298F0F19}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Tower.Phonetic", "Tower.Phonetic\Tower.Phonetic.xproj", "{BF29741D-5CB1-4D70-8F7F-BF419DE94035}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDB9BC61-41D2-489D-8F7F-49CED5B7D59B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDB9BC61-41D2-489D-8F7F-49CED5B7D59B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDB9BC61-41D2-489D-8F7F-49CED5B7D59B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDB9BC61-41D2-489D-8F7F-49CED5B7D59B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C981384-85E6-4405-A0C2-8A6E921434CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C981384-85E6-4405-A0C2-8A6E921434CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C981384-85E6-4405-A0C2-8A6E921434CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C981384-85E6-4405-A0C2-8A6E921434CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EABB0E2-13CC-4CA7-B85E-C12C47193950}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EABB0E2-13CC-4CA7-B85E-C12C47193950}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EABB0E2-13CC-4CA7-B85E-C12C47193950}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EABB0E2-13CC-4CA7-B85E-C12C47193950}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B43C5D9-FA92-4CA2-A96F-C318298F0F19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B43C5D9-FA92-4CA2-A96F-C318298F0F19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B43C5D9-FA92-4CA2-A96F-C318298F0F19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B43C5D9-FA92-4CA2-A96F-C318298F0F19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF29741D-5CB1-4D70-8F7F-BF419DE94035}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF29741D-5CB1-4D70-8F7F-BF419DE94035}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF29741D-5CB1-4D70-8F7F-BF419DE94035}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF29741D-5CB1-4D70-8F7F-BF419DE94035}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CDB9BC61-41D2-489D-8F7F-49CED5B7D59B} = {672CA624-D11E-4FC7-AC36-39359FCA7C7B}
+		{0C981384-85E6-4405-A0C2-8A6E921434CD} = {4C9F9B2C-37DB-4AE4-B820-5FE4E88B7EE9}
+		{9EABB0E2-13CC-4CA7-B85E-C12C47193950} = {5A3A8180-FD70-43E9-971F-1DF17A292395}
+		{6B43C5D9-FA92-4CA2-A96F-C318298F0F19} = {672CA624-D11E-4FC7-AC36-39359FCA7C7B}
+		{BF29741D-5CB1-4D70-8F7F-BF419DE94035} = {672CA624-D11E-4FC7-AC36-39359FCA7C7B}
+	EndGlobalSection
+EndGlobal

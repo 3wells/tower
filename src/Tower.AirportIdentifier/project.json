@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0-*",
+
+  "buildOptions": {
+    "copyToOutput": [ "airports.dat" ]
+  },
+
+  "dependencies": {
+    "AWSSDK.S3": "3.3.5.11",
+    "CsvHelper": "3.0.0-beta8",
+    "NETStandard.Library": "1.6.0",
+    "Tower.Phonetic": "1.0.0-*"
+  },
+
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "dnxcore50"
+    }
+  }
+}
